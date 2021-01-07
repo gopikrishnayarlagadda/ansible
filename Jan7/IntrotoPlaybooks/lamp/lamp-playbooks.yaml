@@ -23,6 +23,10 @@
     - name: install php-cli
       apt:
         name: php-cli
-        state: present    
+        state: present 
+    - name: copy info.php
+      copy:
+        src: info.php    
+        dest: /var/www/html/info.php   
 
 
