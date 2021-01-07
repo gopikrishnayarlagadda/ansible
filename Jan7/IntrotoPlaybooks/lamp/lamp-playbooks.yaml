@@ -8,3 +8,8 @@
         name: apache2
         update_cache: yes
         state: present  
+    - name: install php
+      apt: 
+        name: php
+        state: present
+
