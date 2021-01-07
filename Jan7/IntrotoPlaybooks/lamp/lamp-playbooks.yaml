@@ -16,7 +16,7 @@
       apt:
         name: libapacha2-mod-phd
         state: present
-    - nmae: install php-mysql
+    - name: install php-mysql
       apt:
         name: php-mysql
         state: present
