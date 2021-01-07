@@ -12,7 +12,7 @@
       apt: 
         name: php
         state: present
-    - name: install libapacha2-mod-php
+    - name: install libapacha2-mod-phd
       apt:
         name: libapacha2-mod-phd
         state: present
